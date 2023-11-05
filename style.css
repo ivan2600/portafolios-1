@@ -10,13 +10,18 @@ body {
 }
 
 header {
+  
   background-color: #222;
-  color: #ee7d13;
+  /*background-image: linear-gradient(to right, #9C27B0, #FF8C00);*/
   text-align: center;
   height: 100vh;
 }
 
 h1 {
+  
+  color: transparent;
+  background-color: linear-gradient(to right, #9C27B0, #FF8C00);
+  color: transparent;
   padding-top: 20vh;
   font-size: 6.5em;
 }
