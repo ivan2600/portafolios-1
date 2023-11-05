@@ -10,26 +10,21 @@ body {
 }
 
 header {
-  
   background-color: #222;
-  /*background-image: linear-gradient(to right, #9C27B0, #FF8C00);*/
+  background-image: linear-gradient(to right, #9C27B0, #FF8C00);
   text-align: center;
   height: 100vh;
 }
 
 h1 {
-  
-  color: transparent;
-  background-color: linear-gradient(to right, #9C27B0, #FF8C00);
-  color: transparent;
-  padding-top: 20vh;
+  color: #111;
+  padding-top: 28vh;
   font-size: 6.5em;
 }
 
 nav {
   width: 100vw;
   background-color: #333;
-  
   display: flex;
   justify-content: center;
   position: fixed;
@@ -40,9 +35,12 @@ nav {
 }
 
 nav a {
-  color: #ee7d13;
-  padding: 10px;
+  color: #FF8C00;
+  padding: 7px 12px;
+  margin: 3px 10px;
   text-decoration: none;
+  border: 2px solid #9C27B0;
+  border-radius: 20px;
 }
 
 main {
