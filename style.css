@@ -10,21 +10,31 @@ body {
 }
 
 header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #222;
-  background-image: linear-gradient(to right, #9C27B0, #FF8C00);
   text-align: center;
   height: 100vh;
 }
 
 h1 {
+  max-width: 450px;
+  align-self: center;
   color: #111;
-  padding-top: 28vh;
-  font-size: 6.5em;
+  padding: 30px 80px;
+  font-size: 2.5em;
+  margin: 0 50px;
+  background-image: linear-gradient(to right, #9C27B0, #FF8C00);
+  border-radius: 30px;
 }
 
 nav {
-  width: 100vw;
   background-color: #333;
+  align-self: self-start;
+  width: 92vw;
+  border: 2px solid #9C27B0;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   position: fixed;
@@ -32,27 +42,33 @@ nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  margin-bottom: 28vh;
 }
 
 nav a {
+  
   color: #FF8C00;
-  padding: 7px 12px;
+  padding: 7px 10px;
   margin: 3px 10px;
   text-decoration: none;
-  border: 2px solid #9C27B0;
-  border-radius: 20px;
+  
 }
 
 main {
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 38px 10px;
+  background-color: #9C27B0;
 }
 
 section {
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 section h2 {
   font-size: 1.5em;
+  align-self: center;
 }
 
 ul {
@@ -67,4 +83,24 @@ li {
 
 img {
   max-width: 100%;
+}
+
+#about {
+  background-color: #333;
+  color: #FF8C00;
+  padding: 20px 12px;
+
+  text-decoration: none;
+  border: 2px solid #9C27B0;
+  border-radius: 20px;
+}
+
+#projects {
+  background-color: #333;
+  color: #FF8C00;
+  padding: 38px 12px;
+
+  text-decoration: none;
+  border: 2px solid #9C27B0;
+  border-radius: 20px;
 }
