@@ -32,7 +32,7 @@ h1 {
 nav {
   background-color: #333;
   align-self: self-start;
-  width: 92vw;
+  width: 90vw;
   border: 2px solid #9C27B0;
   border-radius: 20px;
   display: flex;
@@ -46,7 +46,7 @@ nav {
 }
 
 nav a {
-  
+  font-size: 1.8em;
   color: #FF8C00;
   padding: 7px 10px;
   margin: 3px 10px;
@@ -57,17 +57,21 @@ nav a {
 main {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 38px 10px;
   background-color: #9C27B0;
 }
 
 section {
+  width: 90vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  font-size: 1.8em;
 }
 
 section h2 {
-  font-size: 1.5em;
+  font-size: 3em;
   align-self: center;
 }
 
@@ -88,7 +92,7 @@ img {
 #about {
   background-color: #333;
   color: #FF8C00;
-  padding: 20px 12px;
+  padding: 38px 12px;
 
   text-decoration: none;
   border: 2px solid #9C27B0;
