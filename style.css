@@ -108,7 +108,7 @@ img {
 }
 
 #projects {
-  min-height: 1300px;
+  min-height: 1400px;
   background-color: #333;
   color: #FF8C00;
   padding: 70px 50px;
@@ -133,6 +133,7 @@ img {
 
 #projects p {
   font-size: 1.4em;
+  margin-bottom: 100px;
 }
 
 #projects a {
