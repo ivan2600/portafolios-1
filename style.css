@@ -36,7 +36,7 @@ nav {
   border: 2px solid #9C27B0;
   border-radius: 20px;
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
   position: fixed;
   list-style: none;
   margin: 0;
@@ -59,15 +59,16 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 38px 10px;
-  background-color: #9C27B0;
+  background-color: #8d5497;
 }
 
 section {
   width: 90vw;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   font-size: 1.8em;
+  
 }
 
 section h2 {
@@ -92,28 +93,60 @@ img {
 #about {
   background-color: #333;
   color: #FF8C00;
-  padding: 38px 12px;
-
+  padding: 70px 50px;
+  margin-bottom: 40px;
   text-decoration: none;
   border: 2px solid #9C27B0;
   border-radius: 20px;
+}
+
+#about p {
+  font-size: 40px;
 }
 
 #projects {
   background-color: #333;
   color: #FF8C00;
-  padding: 38px 12px;
-
+  padding: 70px 50px;
+  height: 100vh;
+  margin-bottom: 40px;
   text-decoration: none;
   border: 2px solid #9C27B0;
   border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#projects img {
+  width: 80vw;
+  margin: 30px auto 60px;
+  border-radius: 3%;
+}
+
+#projects h2 {
+  margin-bottom: 30px;
+}
+
+#projects p {
+  font-size: 1.4em;
+}
+
+#projects a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #FF8C00;
+  text-decoration: none;
+  font-size: 1.4em;
+  justify-content: flex-start;
 }
 
 #skills {
   background-color: #333;
   color: #FF8C00;
-  padding: 38px 12px;
-
+  padding: 70px 50px;
+  margin-bottom: 40px;
   text-decoration: none;
   border: 2px solid #9C27B0;
   border-radius: 20px;
@@ -122,8 +155,8 @@ img {
 #contact {
   background-color: #333;
   color: #FF8C00;
-  padding: 38px 12px;
-
+  padding: 70px 50px;
+  margin-bottom: 40px;
   text-decoration: none;
   border: 2px solid #9C27B0;
   border-radius: 20px;
