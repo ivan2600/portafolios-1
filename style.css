@@ -112,14 +112,12 @@ img {
   background-color: #333;
   color: #FF8C00;
   padding: 70px 50px;
-  height: 100vh;
+  height: 80vh;
   margin-bottom: 40px;
   text-decoration: none;
   border: 2px solid #9C27B0;
   border-radius: 20px;
   justify-content: center;
-  
-
 }
 
 #projects img {
