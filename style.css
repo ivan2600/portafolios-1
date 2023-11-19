@@ -64,7 +64,6 @@ main {
 
 section {
   width: 90vw;
-  height: 50vh;
   display: flex;
   flex-direction: column;
   font-size: 1.8em;
@@ -91,6 +90,7 @@ img {
 }
 
 #about {
+  height: 700px;
   background-color: #333;
   color: #FF8C00;
   padding: 70px 50px;
@@ -105,6 +105,7 @@ img {
 }
 
 #projects {
+  min-height: 1400px;
   background-color: #333;
   color: #FF8C00;
   padding: 70px 50px;
@@ -114,7 +115,7 @@ img {
   border: 2px solid #9C27B0;
   border-radius: 20px;
   justify-content: center;
-  align-items: center;
+  
 
 }
 
@@ -135,7 +136,7 @@ img {
 #projects a {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   color: #FF8C00;
   text-decoration: none;
   font-size: 1.4em;
