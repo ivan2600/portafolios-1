@@ -16,6 +16,7 @@ header {
   background-color: #222;
   text-align: center;
   height: 100vh;
+  width: 100vw;
 }
 
 h1 {
@@ -32,6 +33,7 @@ h1 {
 nav {
   background-color: #333;
   align-self: self-start;
+  max-width: 800px;
   width: 90vw;
   border: 2px solid #9C27B0;
   border-radius: 20px;
@@ -63,6 +65,7 @@ main {
 }
 
 section {
+  max-width: 800px;
   width: 90vw;
   display: flex;
   flex-direction: column;
@@ -105,7 +108,7 @@ img {
 }
 
 #projects {
-  min-height: 1400px;
+  min-height: 1300px;
   background-color: #333;
   color: #FF8C00;
   padding: 70px 50px;
@@ -144,6 +147,8 @@ img {
 }
 
 #skills {
+  display: flex;
+  flex-direction: column;
   background-color: #333;
   color: #FF8C00;
   padding: 70px 50px;
@@ -151,6 +156,16 @@ img {
   text-decoration: none;
   border: 2px solid #9C27B0;
   border-radius: 20px;
+}
+
+#skills img {
+  margin-top: 40px;
+}
+
+#git-logo {
+  display: block;
+  width: 45vw;
+  margin: 0 auto;
 }
 
 #contact {
