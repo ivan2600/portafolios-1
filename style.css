@@ -177,3 +177,28 @@ img {
   border: 2px solid #9C27B0;
   border-radius: 20px;
 }
+
+#contact a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2em;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#contact p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FF8C00;
+  text-decoration: none;
+  font-size: 1.2em;
+  justify-content: center;
+  text-align: center;
+  margin-top: 35px;
+}
+
