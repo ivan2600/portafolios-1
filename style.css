@@ -107,7 +107,7 @@ img {
   font-size: 40px;
 }
 
-#projects {
+.projects {
   min-height: 1400px;
   background-color: #333;
   color: #FF8C00;
@@ -120,23 +120,23 @@ img {
   justify-content: center;
 }
 
-#projects img {
+.projects img {
   width: 80vw;
   margin: 30px auto 60px;
   border-radius: 3%;
 }
 
-#projects h2 {
+.projects h2 {
   margin-bottom: 30px;
   margin-top: 70px;
 }
 
-#projects p {
+.projects p {
   font-size: 1.4em;
   margin-bottom: 100px;
 }
 
-#projects a {
+.projects a {
   display: flex;
   flex-direction: column;
   align-items: center;
